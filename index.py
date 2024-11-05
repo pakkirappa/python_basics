@@ -45,10 +45,55 @@
 # print(my_dict)
 
 # Set 
-my_set = {1, 2, 3, 4, 5,1 ,2}
-my_set.add(6) # add 6 to the set
+# my_set = {1, 2, 3, 4, 5,1 ,2}
+# my_set.add(6) # add 6 to the set
 # my_set.  
-print(my_set)
+# print(my_set)
+
+# my_set = {1, 2, 3, 4, 5}
+
+# def greetings(name):
+#     print("Hello, {}!".format(name))
+#     return "Hello, {}!".format(name)
+
+def add(a, b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+def multiply(a, b):
+    return a * b
+
+def greetings(name):
+    return f"Hello, {name}!"
+
+print(greetings("World"))
+print(add(1, 2)) 
+print(subtract(2, 1))
+print(multiply(2, 3))
+
+
+
+
+
+
+
+
+
+
+
+
+# print("Hello, World!")
+
+
+
+
+
+
+
 
 
 

@@ -1,10 +1,10 @@
 # OOPS  
-# 1. Class
-# 2. Object
-# 3. Inheritance
-# 4. Polymorphism
-# 5. Encapsulation
-# 6. Abstraction
+# 1. Class : Blueprint of the object  (Real world entity) 
+# 2. Object : Instance of the class  (Real world entity)    
+# 3. Inheritance    :  (Single, Multiple, Multilevel, Hierarchical, Hybrid)
+# 4. Polymorphism : Many forms  (Method Overloading, Method Overriding ) 
+# 5. Encapsulation : Binding the data with the code  (Data hiding) 
+# 6. Abstraction : Hiding the complexity and showing the simplicity 
 
 # Class
 # class Person:  

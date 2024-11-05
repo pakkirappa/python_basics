@@ -133,6 +133,28 @@
 # Example: x: int = 5  # x is an integer    , y: str = 'Hello'  # y is a string
 
 
+# functions in python
+# Functions are blocks of code that perform a specific task.
+# Functions are defined using the def keyword followed by the function name and parameters.
+# Functions can have zero or more parameters.
+# Functions can have a return statement to return a value.
+# Functions can have default parameters with default values.
+# Functions can have keyword arguments with explicit parameter names.
+# Functions can be called with positional arguments or keyword arguments.
+# Functions can be called recursively to solve problems.
+# Functions can be passed as arguments to other functions.
+# Functions can be defined inside other functions.
+# Functions can have annotations to specify parameter and return types.
+# Functions can have variable-length arguments using *args and **kwargs.
+# Functions can have lambda expressions for anonymous functions.
+# Functions can have closures to capture and remember the enclosing scope.
+# Example: def add(x, y): return x + y
+# Example: def greet(name='World'): return f'Hello, {name}!'
+# Example: def multiply(x, y=2): return x * y
+# Example: def divide(x, y): return x / y
+# Example: def add(x, y): return x + y
+
+
   
 
 # local variables are variables that are defined inside a function and can only be accessed within that function.
@@ -154,6 +176,33 @@
 # Example: def outer(): def inner(): nonlocal x x = 10
 
 
+
+# factorial 9
+# 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 362880
+# 9 * factorial(8) = 362880
+
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+
+print(fibonacci(9)) # 34
+
+
+def factorial(n):
+    print(n)
+    if n == 0:
+        return 1
+    else:
+        print(n * factorial(n - 1))
+        return n * factorial(n - 1)
+    
+print(factorial(9)) # 362880
+    
 
 # recursion is the process of a function calling itself.  Example: def factorial(n): if n == 0: return 1 else: return n * factorial(n - 1)  
 # recursion is used to solve problems that can be broken down into smaller subproblems. 
